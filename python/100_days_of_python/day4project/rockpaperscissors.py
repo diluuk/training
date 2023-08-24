@@ -67,3 +67,5 @@ elif choice == 2 and computer_choice == 0:
   print("Scissors gets smashed by rock.  Try again")
 elif choice == 2 and computer_choice == 1:
   print("Scissors cuts paper.  You win!")
+else user_choice > 2:
+  print("You didn't make a correct choice.  Run the program again.")

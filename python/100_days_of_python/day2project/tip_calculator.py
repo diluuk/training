@@ -8,4 +8,4 @@ tip_percentage = tip_amount / 100
 grand_total = bill + (bill * tip_percentage)
 amount_paid_per_person = grand_total / split
 
-print(f"{amount_paid_per_person:.2f}")
+print(f"Each person should pay: {amount_paid_per_person:.2f}")
